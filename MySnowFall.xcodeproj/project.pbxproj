@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9059BBA13CE3A720089173C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9059BB913CE3A720089173C /* UIKit.framework */; };
+		B9059BBC13CE3A720089173C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9059BBB13CE3A720089173C /* Foundation.framework */; };
+		B9059BBE13CE3A720089173C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9059BBD13CE3A720089173C /* CoreGraphics.framework */; };
+		B9059BC413CE3A720089173C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9059BC213CE3A720089173C /* InfoPlist.strings */; };
+		B9059BC713CE3A720089173C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9059BC613CE3A720089173C /* main.m */; };
+		B9059BCA13CE3A720089173C /* MySnowFallAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9059BC913CE3A720089173C /* MySnowFallAppDelegate.m */; };
+		B9059BCD13CE3A720089173C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9059BCB13CE3A720089173C /* MainWindow.xib */; };
+		B9059BD013CE3A720089173C /* MySnowFallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9059BCF13CE3A720089173C /* MySnowFallViewController.m */; };
+		B9059BD313CE3A720089173C /* MySnowFallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9059BD113CE3A720089173C /* MySnowFallViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9059BB513CE3A720089173C /* MySnowFall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySnowFall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9059BB913CE3A720089173C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9059BBB13CE3A720089173C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9059BBD13CE3A720089173C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9059BC113CE3A720089173C /* MySnowFall-Info.plist */ = {isa = PBXFileReference; path = "MySnowFall-Info.plist"; sourceTree = "<group>"; };
+		B9059BC313CE3A720089173C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9059BC513CE3A720089173C /* MySnowFall-Prefix.pch */ = {isa = PBXFileReference; path = "MySnowFall-Prefix.pch"; sourceTree = "<group>"; };
+		B9059BC613CE3A720089173C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9059BC813CE3A720089173C /* MySnowFallAppDelegate.h */ = {isa = PBXFileReference; path = MySnowFallAppDelegate.h; sourceTree = "<group>"; };
+		B9059BC913CE3A720089173C /* MySnowFallAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySnowFallAppDelegate.m; sourceTree = "<group>"; };
+		B9059BCC13CE3A720089173C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B9059BCE13CE3A720089173C /* MySnowFallViewController.h */ = {isa = PBXFileReference; path = MySnowFallViewController.h; sourceTree = "<group>"; };
+		B9059BCF13CE3A720089173C /* MySnowFallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySnowFallViewController.m; sourceTree = "<group>"; };
+		B9059BD213CE3A720089173C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MySnowFallViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9059BB213CE3A720089173C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9059BBA13CE3A720089173C /* UIKit.framework in Frameworks */,
+				B9059BBC13CE3A720089173C /* Foundation.framework in Frameworks */,
+				B9059BBE13CE3A720089173C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9059BAA13CE3A720089173C = {
+			isa = PBXGroup;
+			children = (
+				B9059BBF13CE3A720089173C /* MySnowFall */,
+				B9059BB813CE3A720089173C /* Frameworks */,
+				B9059BB613CE3A720089173C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9059BB613CE3A720089173C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9059BB513CE3A720089173C /* MySnowFall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9059BB813CE3A720089173C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9059BB913CE3A720089173C /* UIKit.framework */,
+				B9059BBB13CE3A720089173C /* Foundation.framework */,
+				B9059BBD13CE3A720089173C /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9059BBF13CE3A720089173C /* MySnowFall */ = {
+			isa = PBXGroup;
+			children = (
+				B9059BC813CE3A720089173C /* MySnowFallAppDelegate.h */,
+				B9059BC913CE3A720089173C /* MySnowFallAppDelegate.m */,
+				B9059BCB13CE3A720089173C /* MainWindow.xib */,
+				B9059BCE13CE3A720089173C /* MySnowFallViewController.h */,
+				B9059BCF13CE3A720089173C /* MySnowFallViewController.m */,
+				B9059BD113CE3A720089173C /* MySnowFallViewController.xib */,
+				B9059BC013CE3A720089173C /* Supporting Files */,
+			);
+			path = MySnowFall;
+			sourceTree = "<group>";
+		};
+		B9059BC013CE3A720089173C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9059BC113CE3A720089173C /* MySnowFall-Info.plist */,
+				B9059BC213CE3A720089173C /* InfoPlist.strings */,
+				B9059BC513CE3A720089173C /* MySnowFall-Prefix.pch */,
+				B9059BC613CE3A720089173C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9059BB413CE3A720089173C /* MySnowFall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9059BD613CE3A720089173C /* Build configuration list for PBXNativeTarget "MySnowFall" */;
+			buildPhases = (
+				B9059BB113CE3A720089173C /* Sources */,
+				B9059BB213CE3A720089173C /* Frameworks */,
+				B9059BB313CE3A720089173C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MySnowFall;
+			productName = MySnowFall;
+			productReference = B9059BB513CE3A720089173C /* MySnowFall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9059BAC13CE3A720089173C /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = B9059BAF13CE3A720089173C /* Build configuration list for PBXProject "MySnowFall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9059BAA13CE3A720089173C;
+			productRefGroup = B9059BB613CE3A720089173C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9059BB413CE3A720089173C /* MySnowFall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9059BB313CE3A720089173C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9059BC413CE3A720089173C /* InfoPlist.strings in Resources */,
+				B9059BCD13CE3A720089173C /* MainWindow.xib in Resources */,
+				B9059BD313CE3A720089173C /* MySnowFallViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9059BB113CE3A720089173C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9059BC713CE3A720089173C /* main.m in Sources */,
+				B9059BCA13CE3A720089173C /* MySnowFallAppDelegate.m in Sources */,
+				B9059BD013CE3A720089173C /* MySnowFallViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9059BC213CE3A720089173C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9059BC313CE3A720089173C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9059BCB13CE3A720089173C /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9059BCC13CE3A720089173C /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B9059BD113CE3A720089173C /* MySnowFallViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9059BD213CE3A720089173C /* en */,
+			);
+			name = MySnowFallViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9059BD413CE3A720089173C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9059BD513CE3A720089173C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B9059BD713CE3A720089173C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySnowFall/MySnowFall-Prefix.pch";
+				INFOPLIST_FILE = "MySnowFall/MySnowFall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9059BD813CE3A720089173C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MySnowFall/MySnowFall-Prefix.pch";
+				INFOPLIST_FILE = "MySnowFall/MySnowFall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9059BAF13CE3A720089173C /* Build configuration list for PBXProject "MySnowFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9059BD413CE3A720089173C /* Debug */,
+				B9059BD513CE3A720089173C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9059BD613CE3A720089173C /* Build configuration list for PBXNativeTarget "MySnowFall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9059BD713CE3A720089173C /* Debug */,
+				B9059BD813CE3A720089173C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9059BAC13CE3A720089173C /* Project object */;
+}
