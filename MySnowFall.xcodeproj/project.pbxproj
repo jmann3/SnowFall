@@ -16,6 +16,7 @@
 		B9059BCD13CE3A720089173C /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9059BCB13CE3A720089173C /* MainWindow.xib */; };
 		B9059BD013CE3A720089173C /* MySnowFallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9059BCF13CE3A720089173C /* MySnowFallViewController.m */; };
 		B9059BD313CE3A720089173C /* MySnowFallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9059BD113CE3A720089173C /* MySnowFallViewController.xib */; };
+		B9059BDC13CE3B2C0089173C /* flake.png in Resources */ = {isa = PBXBuildFile; fileRef = B9059BDB13CE3B2C0089173C /* flake.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,17 @@
 		B9059BB913CE3A720089173C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B9059BBB13CE3A720089173C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B9059BBD13CE3A720089173C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B9059BC113CE3A720089173C /* MySnowFall-Info.plist */ = {isa = PBXFileReference; path = "MySnowFall-Info.plist"; sourceTree = "<group>"; };
+		B9059BC113CE3A720089173C /* MySnowFall-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySnowFall-Info.plist"; sourceTree = "<group>"; };
 		B9059BC313CE3A720089173C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		B9059BC513CE3A720089173C /* MySnowFall-Prefix.pch */ = {isa = PBXFileReference; path = "MySnowFall-Prefix.pch"; sourceTree = "<group>"; };
+		B9059BC513CE3A720089173C /* MySnowFall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySnowFall-Prefix.pch"; sourceTree = "<group>"; };
 		B9059BC613CE3A720089173C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B9059BC813CE3A720089173C /* MySnowFallAppDelegate.h */ = {isa = PBXFileReference; path = MySnowFallAppDelegate.h; sourceTree = "<group>"; };
+		B9059BC813CE3A720089173C /* MySnowFallAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySnowFallAppDelegate.h; sourceTree = "<group>"; };
 		B9059BC913CE3A720089173C /* MySnowFallAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySnowFallAppDelegate.m; sourceTree = "<group>"; };
 		B9059BCC13CE3A720089173C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		B9059BCE13CE3A720089173C /* MySnowFallViewController.h */ = {isa = PBXFileReference; path = MySnowFallViewController.h; sourceTree = "<group>"; };
+		B9059BCE13CE3A720089173C /* MySnowFallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MySnowFallViewController.h; sourceTree = "<group>"; };
 		B9059BCF13CE3A720089173C /* MySnowFallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySnowFallViewController.m; sourceTree = "<group>"; };
 		B9059BD213CE3A720089173C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MySnowFallViewController.xib; sourceTree = "<group>"; };
+		B9059BDB13CE3B2C0089173C /* flake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flake.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,8 @@
 		B9059BAA13CE3A720089173C = {
 			isa = PBXGroup;
 			children = (
+				B9059BDA13CE3AB00089173C /* Resources */,
+				B9059BD913CE3AA30089173C /* Other Sources */,
 				B9059BBF13CE3A720089173C /* MySnowFall */,
 				B9059BB813CE3A720089173C /* Frameworks */,
 				B9059BB613CE3A720089173C /* Products */,
@@ -99,6 +103,21 @@
 				B9059BC613CE3A720089173C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9059BD913CE3AA30089173C /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		B9059BDA13CE3AB00089173C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B9059BDB13CE3B2C0089173C /* flake.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +170,7 @@
 				B9059BC413CE3A720089173C /* InfoPlist.strings in Resources */,
 				B9059BCD13CE3A720089173C /* MainWindow.xib in Resources */,
 				B9059BD313CE3A720089173C /* MySnowFallViewController.xib in Resources */,
+				B9059BDC13CE3B2C0089173C /* flake.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
